@@ -1,0 +1,14 @@
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\bin\Debug\net7.0\EntityLayer.deps.json
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\bin\Debug\net7.0\EntityLayer.runtimeconfig.json
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\bin\Debug\net7.0\EntityLayer.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\bin\Debug\net7.0\EntityLayer.pdb
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfo.cs
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\refint\EntityLayer.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.pdb
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\EntityLayer.genruntimeconfig.cache
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\EntityLayer\obj\Debug\net7.0\ref\EntityLayer.dll
