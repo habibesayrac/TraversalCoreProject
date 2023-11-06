@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x7Md2J3ZUSEBJFiqLvfmIeuVBvlW3vlsNdIjtPH08l0=",
+  "Hash": "wNn4UdjrZ2zX6m/3B29B3GgbD+WefsqZSbA51QZFgdI=",
   "Source": "TraversalCoreProject",
   "BasePath": "_content/TraversalCoreProject",
   "Mode": "Default",
@@ -9875,6 +9875,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Traversal-Starter\\starter-license-W3Layouts.txt"
+    },
+    {
+      "Identity": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\userimages\\8d546f67-cc2f-4aef-9ae7-23b748c222fe.png",
+      "SourceId": "TraversalCoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\",
+      "BasePath": "_content/TraversalCoreProject",
+      "RelativePath": "userimages/8d546f67-cc2f-4aef-9ae7-23b748c222fe.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimages\\8d546f67-cc2f-4aef-9ae7-23b748c222fe.png"
     },
     {
       "Identity": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\web\\css\\style.css",
