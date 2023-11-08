@@ -8,14 +8,21 @@
 
 <h1>Geçmiş Rezervasyonlar</h1>
 
+@if (!Model.Any())
+{
+ <span>Geçmiş rezervasyon bulunmamaktadır.</span>   
+}
+else
+{
 <table class="table table-bordered">
     <tr>
         <th>#</th>
         <th>Lokasyon</th>
         <th>Kişi Sayısı</th>
-        <th>Rezzervasyon Tarihi</th>
+        <th>Rezervasyon Tarihi</th>
         <th>Durum</th>
     </tr>
+
     @foreach (var item in Model)
     {
             <tr>
@@ -25,6 +32,7 @@
                 <td>@item.ReservationDate</td>
                 <td>@item.Status</td>
             </tr>
+        }
     }
-
 </table>
+}
