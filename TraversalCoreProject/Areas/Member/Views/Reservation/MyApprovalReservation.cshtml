@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 
-<h1>Onay Bekleyen Rezervasyonlarım</h1>
+<h1>Onay Bekleyen Rezervasyonlar</h1>
 
 <table class="table table-bordered">
     <tr>
@@ -19,7 +19,7 @@
     {
         <tr>
             <td>@item.ReservationID</td>
-           @* <td>@item.Destination</td>*@
+            <td>@item.Destination.City</td>
             <td>@item.PersonCount</td>
             <td>@item.ReservationDate</td>
             <td>@item.Status</td>
@@ -27,4 +27,3 @@
     }
     
 </table>
-
