@@ -26,7 +26,6 @@ namespace TraversalCoreProject.Areas.Admin.Controllers
             return RedirectToAction("Index");
         } 
         
-        [HttpDelete]
         public IActionResult DeleteDestination(int id)
         {
             var values = destinationManager.TGetById(id);
