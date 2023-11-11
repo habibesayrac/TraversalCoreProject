@@ -55,7 +55,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("AboutID");
 
-                    b.ToTable("Abouts");
+                    b.ToTable("Abouts", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.About2", b =>
@@ -84,7 +84,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("About2ID");
 
-                    b.ToTable("About2s");
+                    b.ToTable("About2s", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.AppRole", b =>
@@ -228,7 +228,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("DestinationID");
 
-                    b.ToTable("Comments");
+                    b.ToTable("Comments", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Contact", b =>
@@ -264,7 +264,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("ContactID");
 
-                    b.ToTable("Contacts");
+                    b.ToTable("Contacts", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Destination", b =>
@@ -318,7 +318,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("DestinationID");
 
-                    b.ToTable("Destinations");
+                    b.ToTable("Destinations", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Feature", b =>
@@ -346,7 +346,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("FeatureID");
 
-                    b.ToTable("Features");
+                    b.ToTable("Features", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Feature2", b =>
@@ -374,7 +374,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("Feature2ID");
 
-                    b.ToTable("Feature2s");
+                    b.ToTable("Feature2s", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Guide", b =>
@@ -410,7 +410,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("GuideID");
 
-                    b.ToTable("Guides");
+                    b.ToTable("Guides", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Newsletter", b =>
@@ -427,7 +427,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("NewsletterID");
 
-                    b.ToTable("Newsletters");
+                    b.ToTable("Newsletters", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Reservation", b =>
@@ -465,7 +465,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("DestinationID");
 
-                    b.ToTable("Reservations");
+                    b.ToTable("Reservations", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.SubAbout", b =>
@@ -486,7 +486,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("SubAboutID");
 
-                    b.ToTable("SubAbouts");
+                    b.ToTable("SubAbouts", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Testimonial", b =>
@@ -514,7 +514,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("TestimonialID");
 
-                    b.ToTable("Testimonials");
+                    b.ToTable("Testimonials", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>

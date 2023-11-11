@@ -16,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Destination/AddDestination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cQWRkRGVzdGluYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Destination/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/Destination/UpdateDestination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cVXBkYXRlRGVzdGluYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Comment/Index.cshtml]
