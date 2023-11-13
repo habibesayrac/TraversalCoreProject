@@ -10,7 +10,7 @@ namespace TraversalCoreProject.ViewComponents.Comment
 
         public IViewComponentResult Invoke(int id)
         {
-            //var values = commentManager.TGetDestinationById(id);
+            var values = commentManager.TGetById(id);
             return View();
         }
     }
