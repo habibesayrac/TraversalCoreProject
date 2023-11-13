@@ -168,8 +168,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTGF5b3V0UGFydGlhbFxfU2NyaXB0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_AdminDashboardHeader/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluRGFzaGJvYXJkSGVhZGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_AdminGuideList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluR3VpZGVMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_Cards1Statistic/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhcmRzMVN0YXRpc3RpY1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_Cards2Statistic/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhcmRzMlN0YXRpc3RpY1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_CommentList/Default.cshtml]
@@ -178,6 +190,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_DashboardBanner/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Rhc2hib2FyZEJhbm5lclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_DestinationStatistic2/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Rlc3RpbmF0aW9uU3RhdGlzdGljMlxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_DestinationStatistic/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Rlc3RpbmF0aW9uU3RhdGlzdGljXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_Feature/Default.cshtml]
@@ -214,6 +234,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_Testimonial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Rlc3RpbW9uaWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_TotalRevenue/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1RvdGFsUmV2ZW51ZVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Error.cshtml]
