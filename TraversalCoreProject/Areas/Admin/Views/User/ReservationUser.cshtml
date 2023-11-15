@@ -20,10 +20,10 @@
     @foreach (var item in Model)
     {
         {
-                count += 1;
-            }
+            count += 1;
+        }
         <tr>
-            
+
             <td>@count</td>
             <td>######</td>
             <td>@item.Destination.City</td>
@@ -31,7 +31,5 @@
             <td>@(((DateTime)item.ReservationDate).ToString("dd/MMM/yyyy"))</td>
             <td><a href="#" class="btn btn-outline-primary">Detaylar</a></td>
         </tr>
-
     }
-
 </table>

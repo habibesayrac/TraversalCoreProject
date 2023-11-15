@@ -267,3 +267,10 @@ C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\De
 C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Extensions.Logging.File.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Sinks.Async.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\bin\Debug\net7.0\Serilog.Sinks.RollingFile.dll

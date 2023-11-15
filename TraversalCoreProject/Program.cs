@@ -7,11 +7,20 @@ using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.Extensions.Logging;
+using TraversalCoreProject.Controllers;
 using TraversalCoreProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddLogging(x =>
+{
+    x.ClearProviders();
+    x.SetMinimumLevel(LogLevel.Debug);
+    x.AddDebug();
+});
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>()
     .AddErrorDescriber<CustomIdentityValidator>()
@@ -27,6 +36,7 @@ builder.Services.AddMvc(config =>
     .RequireAuthenticatedUser()
     .Build();
     config.Filters.Add(new AuthorizeFilter(policy));
+
 });
 
 builder.Services.AddMvc();
@@ -34,8 +44,18 @@ builder.Services.AddMvc();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+
+
+    //var path = Directory.GetCurrentDirectory();
+    //loggerFactory.AddFile($"{path}\\Logs\\Log1.txt");
+
+
+
+
 if (!app.Environment.IsDevelopment())
 {
+    
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();

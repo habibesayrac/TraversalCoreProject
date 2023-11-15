@@ -19,7 +19,8 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.13",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.10"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.11",
+          "Serilog.Extensions.Logging.File": "3.0.0"
         },
         "runtime": {
           "TraversalCoreProject.dll": {}
@@ -1304,7 +1305,7 @@
           }
         }
       },
-      "Microsoft.DotNet.Scaffolding.Shared/7.0.10": {
+      "Microsoft.DotNet.Scaffolding.Shared/7.0.11": {
         "dependencies": {
           "Humanizer": "2.14.1",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.4.0",
@@ -1313,8 +1314,8 @@
         },
         "runtime": {
           "lib/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.46102"
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.52402"
           }
         }
       },
@@ -1402,6 +1403,11 @@
       "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "7.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         }
       },
       "Microsoft.Extensions.DependencyInjection/7.0.0": {
@@ -1611,92 +1617,92 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration/7.0.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration/7.0.11": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "7.0.10"
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "7.0.11"
         },
         "runtime": {
           "lib/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.46102"
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.52402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Core/7.0.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core/7.0.11": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "7.0.10",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "7.0.11",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.46102"
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.52402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design/7.0.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/7.0.11": {
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "7.0.10",
-          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "7.0.10"
+          "Microsoft.DotNet.Scaffolding.Shared": "7.0.11",
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "7.0.11"
         },
         "runtime": {
           "lib/net7.0/dotnet-aspnet-codegenerator-design.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.46102"
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.52402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/7.0.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/7.0.11": {
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "7.0.10",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "7.0.10"
+          "Microsoft.DotNet.Scaffolding.Shared": "7.0.11",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "7.0.11"
         },
         "runtime": {
           "lib/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.46102"
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.52402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/7.0.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/7.0.11": {
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "6.0.11",
           "Microsoft.CodeAnalysis.CSharp": "4.4.0",
           "Microsoft.CodeAnalysis.Razor": "6.0.11",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "7.0.10"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "7.0.11"
         },
         "runtime": {
           "lib/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.46102"
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.52402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/7.0.10": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/7.0.11": {
         "dependencies": {
           "Microsoft.Build": "17.3.2",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.4.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "7.0.10",
+          "Microsoft.DotNet.Scaffolding.Shared": "7.0.11",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.46102"
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.52402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/7.0.10": {
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/7.0.11": {
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "7.0.10",
-          "Microsoft.VisualStudio.Web.CodeGeneration": "7.0.10"
+          "Microsoft.DotNet.Scaffolding.Shared": "7.0.11",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "7.0.11"
         },
         "runtime": {
           "lib/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.46102"
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.52402"
           }
         }
       },
@@ -1945,6 +1951,97 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Serilog/2.10.0": {
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.10.0.0"
+          }
+        }
+      },
+      "Serilog.Extensions.Logging/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "Serilog": "2.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Extensions.Logging.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "Serilog.Extensions.Logging.File/3.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
+          "Serilog": "2.10.0",
+          "Serilog.Extensions.Logging": "3.1.0",
+          "Serilog.Formatting.Compact": "1.1.0",
+          "Serilog.Sinks.Async": "1.5.0",
+          "Serilog.Sinks.RollingFile": "3.3.0"
+        },
+        "runtime": {
+          "lib/net6.0/Serilog.Extensions.Logging.File.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Serilog.Formatting.Compact/1.1.0": {
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Formatting.Compact.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/3.2.0": {
+        "dependencies": {
+          "Serilog": "2.10.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Timer": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.RollingFile/3.3.0": {
+        "dependencies": {
+          "Serilog.Sinks.File": "3.2.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.3.0.0"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -3408,12 +3505,12 @@
       "path": "microsoft.diasymreader/1.4.0",
       "hashPath": "microsoft.diasymreader.1.4.0.nupkg.sha512"
     },
-    "Microsoft.DotNet.Scaffolding.Shared/7.0.10": {
+    "Microsoft.DotNet.Scaffolding.Shared/7.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-m6+MmjRbregd3+KzzUZHl6JA9C0KD9GC4WnQ9YpfP7fx6187HGhRVX2ctwVUmp6vY9LHtZ8+WEJG2Eu0G4J8OQ==",
-      "path": "microsoft.dotnet.scaffolding.shared/7.0.10",
-      "hashPath": "microsoft.dotnet.scaffolding.shared.7.0.10.nupkg.sha512"
+      "sha512": "sha512-4FhkEyNg3AJisZsSjRzFfLenWDtT+qYGisGk1h/7HU+Ed5ReFnEx5SRFkU7wTSBEQ/CmU/0V7jeG43oNNeaaeg==",
+      "path": "microsoft.dotnet.scaffolding.shared/7.0.11",
+      "hashPath": "microsoft.dotnet.scaffolding.shared.7.0.11.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/7.0.13": {
       "type": "package",
@@ -3484,6 +3581,13 @@
       "sha512": "sha512-f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
       "path": "microsoft.extensions.configuration.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
+      "path": "microsoft.extensions.configuration.binder/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/7.0.0": {
       "type": "package",
@@ -3667,54 +3771,54 @@
       "path": "microsoft.sqlserver.server/1.0.0",
       "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration/7.0.10": {
+    "Microsoft.VisualStudio.Web.CodeGeneration/7.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-woqv1Q8JABOO5Asr9A9DPBglKIFjnq+/Mc8HItMpVDXAYTq0l2VG4Jzvk6UG5XBbK4xgvM0+vFRmOaXx/HOVBw==",
-      "path": "microsoft.visualstudio.web.codegeneration/7.0.10",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.7.0.10.nupkg.sha512"
+      "sha512": "sha512-JAv6JMI38nqsMaaMjSkXpI/yn4u4QQphzZLAG9YLJToos3j0wz54UUxcV2v0WYP0U17cfy2Sr5I8/xJh4KI7ew==",
+      "path": "microsoft.visualstudio.web.codegeneration/7.0.11",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.7.0.11.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Core/7.0.10": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Core/7.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UTRU0EtlkVI7ii5BQ3u8azoCTsdUMRtkMLlTG9XS7cps/kCeHia4Cn96Hwq+G37lk/eEzl1fPWgwuMX4MC9yfA==",
-      "path": "microsoft.visualstudio.web.codegeneration.core/7.0.10",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.core.7.0.10.nupkg.sha512"
+      "sha512": "sha512-bmZZRWvJK1UM/k8U4avGDMf3b0PJ7DI6nLZSwPk3uDzOJBjmjnqAqKuPPfmRfYMF5wedV2IdJObvTzieRevAvg==",
+      "path": "microsoft.visualstudio.web.codegeneration.core/7.0.11",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.core.7.0.11.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design/7.0.10": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/7.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-A9zDdvXjB6Kg0bbYKNBN9SjquGRpxeQo5oD1LGsrHRjGRPn00QHTrAGJI9NGQNgBc7CIi4LKHMsTgxVL77w3WA==",
-      "path": "microsoft.visualstudio.web.codegeneration.design/7.0.10",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.design.7.0.10.nupkg.sha512"
+      "sha512": "sha512-kCM/alR4BhyriAhcwuiOIYLgDv/4OiPeUVPbRAA/0+rRIg/aA/J1dHqKkiFRb9h/WM7TC5YnjyFrfItbkrKs1w==",
+      "path": "microsoft.visualstudio.web.codegeneration.design/7.0.11",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.design.7.0.11.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/7.0.10": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/7.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wgmdnxD3SQyfvDIYk5JEz6A30hosAkHcb00ozmy02sxj5gxy9DXi5tBcFocIXMFlbvXRfSo/qyy/yF3pNq3hCQ==",
-      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/7.0.10",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.entityframeworkcore.7.0.10.nupkg.sha512"
+      "sha512": "sha512-4p/zPQ8GySfsMDKdB/kUirYx11SaNUgMkcmyy1cNODvd8Ld7mQgf++FyOGFmG3vzxAuPmJk5bTg6nXaSxirOFw==",
+      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/7.0.11",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.entityframeworkcore.7.0.11.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/7.0.10": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/7.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4ljx3V6hjdiy1n2UApGQiXx1u7RBB89uyT6zg/R1lziwh/vVXKMwokpg9MdH9r+YNrW3tPE7CbRlo3bSiXC/mg==",
-      "path": "microsoft.visualstudio.web.codegeneration.templating/7.0.10",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.templating.7.0.10.nupkg.sha512"
+      "sha512": "sha512-h8FkRQ9SWsWrKOiw2tOYmkZH1c6OGYZF3+YUNqIdI4DVddDu6cDU/3EMoax1JlwmOCkFHjDRoxZrdobwe6sOfg==",
+      "path": "microsoft.visualstudio.web.codegeneration.templating/7.0.11",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.templating.7.0.11.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/7.0.10": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/7.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0lcG9iu5HGOBdTd3Mn3Pb+Vj824fLTU20GQgefDUgV3+asn7gpWV7/SMSPvgROnpllDHMGjBL78d00bcNRciLA==",
-      "path": "microsoft.visualstudio.web.codegeneration.utils/7.0.10",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.utils.7.0.10.nupkg.sha512"
+      "sha512": "sha512-hJDb7MxlKv5G4jciTZ+XgKtSX7l4bvw2d6c3eIkW6nkbtySI9EaCqOL6mPplpMwWjlrmFH8r+0Wo9coRoR7hEQ==",
+      "path": "microsoft.visualstudio.web.codegeneration.utils/7.0.11",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.utils.7.0.11.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/7.0.10": {
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/7.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0F5Ud5wkphBc5CW9lOkGiQbWgapqT7BmwCo4CuL8NuOtti/8ZN5OwI1miHWKdnKajEyovTs3sV1jxp39hy6XKg==",
-      "path": "microsoft.visualstudio.web.codegenerators.mvc/7.0.10",
-      "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.7.0.10.nupkg.sha512"
+      "sha512": "sha512-OrMjbQk0sqUoLLJ8SQ392skBN6X52TgR7cm6+J8s0aUTGYJM7rm8O+P21ys3OceUR7ZZ8wwwvAm/5puTWR8Q+w==",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/7.0.11",
+      "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.7.0.11.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
@@ -3932,6 +4036,55 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Serilog/2.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+      "path": "serilog/2.10.0",
+      "hashPath": "serilog.2.10.0.nupkg.sha512"
+    },
+    "Serilog.Extensions.Logging/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IWfem7wfrFbB3iw1OikqPFNPEzfayvDuN4WP7Ue1AVFskalMByeWk3QbtUXQR34SBkv1EbZ3AySHda/ErDgpcg==",
+      "path": "serilog.extensions.logging/3.1.0",
+      "hashPath": "serilog.extensions.logging.3.1.0.nupkg.sha512"
+    },
+    "Serilog.Extensions.Logging.File/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bUYjMHn7NhpK+/8HDftG7+G5hpWzD49XTSvLoUFZGgappDa6FoseqFOsLrjLRjwe1zM+igH5mySFJv3ntb+qcg==",
+      "path": "serilog.extensions.logging.file/3.0.0",
+      "hashPath": "serilog.extensions.logging.file.3.0.0.nupkg.sha512"
+    },
+    "Serilog.Formatting.Compact/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pNroKVjo+rDqlxNG5PXkRLpfSCuDOBY0ri6jp9PLe505ljqwhwZz8ospy2vWhQlFu5GkIesh3FcDs4n7sWZODA==",
+      "path": "serilog.formatting.compact/1.1.0",
+      "hashPath": "serilog.formatting.compact.1.1.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Async/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-csHYIqAwI4Gy9oAhXYRwxGrQEAtBg3Ep7WaCzsnA1cZuBZjVAU0n7hWaJhItjO7hbLHh/9gRVxALCUB4Dv+gZw==",
+      "path": "serilog.sinks.async/1.5.0",
+      "hashPath": "serilog.sinks.async.1.5.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VHbo68pMg5hwSWrzLEdZv5b/rYmIgHIRhd4d5rl8GnC5/a8Fr+RShT5kWyeJOXax1el6mNJ+dmHDOVgnNUQxaw==",
+      "path": "serilog.sinks.file/3.2.0",
+      "hashPath": "serilog.sinks.file.3.2.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.RollingFile/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2lT5X1r3GH4P0bRWJfhA7etGl8Q2Ipw9AACvtAHWRUSpYZ42NGVyHoVs2ALBZ/cAkkS+tA4jl80Zie144eLQPg==",
+      "path": "serilog.sinks.rollingfile/3.3.0",
+      "hashPath": "serilog.sinks.rollingfile.3.3.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",
