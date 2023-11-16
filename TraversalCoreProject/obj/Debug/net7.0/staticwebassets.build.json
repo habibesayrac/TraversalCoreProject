@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZDV6oT52Rcl+za63BnrLb6QnFCuK69IyjP3H6pVAnpw=",
+  "Hash": "owd2lbmrFQNRiPnUPjM4KB33s/lsT5QQID8nROC7JA8=",
   "Source": "TraversalCoreProject",
   "BasePath": "_content/TraversalCoreProject",
   "Mode": "Default",
@@ -3211,6 +3211,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Login_v1\\vendor\\tilt\\tilt.jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\pdfreports\\dosya1.pdf",
+      "SourceId": "TraversalCoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\",
+      "BasePath": "_content/TraversalCoreProject",
+      "RelativePath": "pdfreports/dosya1.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfreports\\dosya1.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\pdfreports\\dosya2.pdf",
+      "SourceId": "TraversalCoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\",
+      "BasePath": "_content/TraversalCoreProject",
+      "RelativePath": "pdfreports/dosya2.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfreports\\dosya2.pdf"
     },
     {
       "Identity": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\sneat-1.0.0\\.browserslistrc",

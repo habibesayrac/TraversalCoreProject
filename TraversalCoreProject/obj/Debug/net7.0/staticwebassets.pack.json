@@ -1189,6 +1189,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\pdfreports\\dosya1.pdf",
+      "PackagePath": "staticwebassets\\pdfreports\\dosya1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\pdfreports\\dosya2.pdf",
+      "PackagePath": "staticwebassets\\pdfreports\\dosya2.pdf"
+    },
+    {
       "Id": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\wwwroot\\sneat-1.0.0\\.browserslistrc",
       "PackagePath": "staticwebassets\\sneat-1.0.0\\.browserslistrc"
     },
