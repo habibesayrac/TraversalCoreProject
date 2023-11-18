@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9LgIlaYiV0SINFxEEARlAQlQ3cQwOW70y0yv76ZgI2QuE2V/uJ2Lox1mcYibWDrLF/twblLVvfCaiN0J3feKhA==",
+  "dgSpecHash": "PtFoWZqn3W65yr7uTaI4Dcgt9Cb9aNqWQCuoy8dyXsM/vuw9nICyh65syrr3Jm4YEDgeDndI8mkof+MsHyGGEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\habib\\OneDrive\\Desktop\\TraversalCoreProject\\TraversalCoreProject\\TraversalCoreProject.csproj",
   "expectedPackageFiles": [
@@ -68,6 +68,7 @@
     "C:\\Users\\habib\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\irony.netcore\\1.0.11\\irony.netcore.1.0.11.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\itextsharp.lgplv2.core\\3.4.12\\itextsharp.lgplv2.core.3.4.12.nupkg.sha512",
+    "C:\\Users\\habib\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
@@ -158,6 +159,7 @@
     "C:\\Users\\habib\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\habib\\.nuget\\packages\\mimekit\\4.3.0\\mimekit.4.3.0.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\habib\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
