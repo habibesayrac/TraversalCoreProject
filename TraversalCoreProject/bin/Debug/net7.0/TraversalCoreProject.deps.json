@@ -3077,6 +3077,7 @@
       },
       "BusinessLayer/1.0.0": {
         "dependencies": {
+          "DTOLayer": "1.0.0",
           "DataAccessLayer": "1.0.0",
           "EPPlus": "7.0.1",
           "EntityLayer": "1.0.0",
@@ -3099,6 +3100,11 @@
         },
         "runtime": {
           "DataAccessLayer.dll": {}
+        }
+      },
+      "DTOLayer/1.0.0": {
+        "runtime": {
+          "DTOLayer.dll": {}
         }
       },
       "EntityLayer/1.0.0": {
@@ -5107,6 +5113,11 @@
       "sha512": ""
     },
     "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTOLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

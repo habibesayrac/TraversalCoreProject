@@ -22,17 +22,19 @@ namespace BusinessLayer.Container
             services.AddScoped<IDestinationDal, EfDestinationDal>();
 
             services.AddScoped<IAppUserService, AppUserManager>();
-            services.AddScoped<IAppUserDal, EfAppUserDal>(); 
+            services.AddScoped<IAppUserDal, EfAppUserDal>();
 
             services.AddScoped<IReservationService, ReservationManager>();
             services.AddScoped<IReservationDal, EfReservationDal>();
-            
+
             services.AddScoped<IGuideService, GuideManager>();
-            services.AddScoped<IGuideDal, EfGuideDal>(); 
-            
+            services.AddScoped<IGuideDal, EfGuideDal>();
+
             services.AddScoped<IExcelService, ExcelManager>();
             services.AddScoped<IPdfService, PdfManager>();
-            
+
+            services.AddScoped<IContactUsService, ContactUsManager>();
+            services.AddScoped<IContactUsDal, EfContactUsDal>();
 
         }
     }

@@ -1,0 +1,12 @@
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\bin\Debug\net7.0\DTOLayer.deps.json
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\bin\Debug\net7.0\DTOLayer.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\bin\Debug\net7.0\DTOLayer.pdb
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.csproj.AssemblyReference.cache
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.AssemblyInfoInputs.cache
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.AssemblyInfo.cs
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.csproj.CoreCompileInputs.cache
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\refint\DTOLayer.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\DTOLayer.pdb
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\DTOLayer\obj\Debug\net7.0\ref\DTOLayer.dll
