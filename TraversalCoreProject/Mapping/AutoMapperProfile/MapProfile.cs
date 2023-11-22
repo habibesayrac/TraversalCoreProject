@@ -16,10 +16,13 @@ namespace TraversalCoreProject.Mapping.AutoMapperProfile
 
             CreateMap<AppUserRegisterDTO, AppUser>();
             CreateMap<AppUser, AppUserRegisterDTO>();
+            
+            //Güncel yazımlar
 
             CreateMap<AppUserLoginDTO, AppUser>().ReverseMap();
-         
 
+            CreateMap<AnnouncementListDTO, Announcement>().ReverseMap();
+            CreateMap<AnnouncementUpdateDTO, Announcement>().ReverseMap();
         }
     }
 }
