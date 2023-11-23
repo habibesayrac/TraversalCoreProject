@@ -21,6 +21,8 @@ builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Contex
     .AddErrorDescriber<CustomIdentityValidator>()
     .AddEntityFrameworkStores<Context>();
 
+builder.Services.AddHttpClient();
+
 builder.Services.ContainerDependencies();
 builder.Services.AddAutoMapper(typeof(Program));
 
