@@ -45,7 +45,6 @@ namespace TraversalCoreProject.Areas.Admin.Controllers
         }
 
         [HttpPost]
-
         public async Task<IActionResult> AddVisitor(VisitorViewModel p)
         {
 

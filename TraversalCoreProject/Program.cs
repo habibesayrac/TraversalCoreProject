@@ -1,5 +1,6 @@
 using BusinessLayer.Container;
 using DataAccessLayer.Concrete;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using EntityLayer.Concrete;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
@@ -38,17 +39,15 @@ builder.Services.AddMvc(config =>
     config.Filters.Add(new AuthorizeFilter(policy));
 
 });
-
 builder.Services.AddMvc();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
 
 
-    //var path = Directory.GetCurrentDirectory();
-    //loggerFactory.AddFile($"{path}\\Logs\\Log1.txt");
+//var path = Directory.GetCurrentDirectory();
+//loggerFactory.AddFile($"{path}\\Logs\\Log1.txt");
 
 
 
