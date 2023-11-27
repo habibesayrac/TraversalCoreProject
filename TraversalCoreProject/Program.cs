@@ -5,11 +5,13 @@ using EntityLayer.Concrete;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using TraversalCoreProject.CQRS.Handlers.DestinationHandlers;
 using TraversalCoreProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<GetAllDestinationHandlers>();
 
 builder.Services.AddLogging(x =>
 {
@@ -48,8 +50,6 @@ var app = builder.Build();
 
 //var path = Directory.GetCurrentDirectory();
 //loggerFactory.AddFile($"{path}\\Logs\\Log1.txt");
-
-
 
 
 if (!app.Environment.IsDevelopment())
