@@ -20,16 +20,18 @@ namespace TraversalCoreProject.Controllers
         [HttpGet]
         public IActionResult DestinationDetails(int id)
         {
+            ViewBag.i = id;
+            ViewBag.destID = id;
             var values = destinationManager.TGetById(id);
             return View(values);
 
         }
-        [HttpPost]
-        public IActionResult DestinationDetails(Destination p)
-        {
-            return View();
+        //[HttpPost]
+        //public IActionResult DestinationDetails(Destination p)
+        //{
+        //    return View();
 
-        }
+        //}
     
     }
 }
