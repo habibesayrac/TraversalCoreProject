@@ -1,5 +1,7 @@
 ﻿@model EntityLayer.Concrete.Destination
 
+@if(User.Identity.IsAuthenticated)
+{
 <div class="leave-comment-form mt-5" id="reply">
     <h4 class="side-title mb-2">Bir yorum bırakın</h4>
     <p class="mb-4">
@@ -7,6 +9,7 @@
     </p>
     <form method="post" asp-action="AddComment" asp-controller="Comment">
         <input type="hidden" name="DestinationID" value=" @ViewBag.destID" />
+        <input type="hidden" name="AppUserID" value="@ViewBag.userID" />
         <div class="form-group">
             <textarea name="CommentContent" class="form-control" placeholder="Yorumunuz*" required=""
                       spellcheck="false"></textarea>
@@ -16,3 +19,8 @@
         </div>
     </form>
 </div>
+} 
+else
+{
+    <h2>Yorum yapabilmek için üye olmanız gerekli.</h2>
+}
