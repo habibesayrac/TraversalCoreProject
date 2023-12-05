@@ -25,8 +25,8 @@ namespace EntityLayer.Concrete
         public DateTime Date { get; set; }
         public List<Comment> Comments { get; set; }
         public List<Reservation> Reservations { get; set; }
-        public int GuideID { get; set; }
-        public Guide Guide { get; set; }
+        //public int GuideID { get; set; }
+        //public Guide Guide { get; set; }
 
     }
 }
