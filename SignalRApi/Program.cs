@@ -13,6 +13,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<VisitorService>();
 builder.Services.AddSignalR();
 builder.Services.AddDbContext<Context>();
+builder.Services.AddCors(options=>options.AddPolicy("CorsPolicy",
+    builder =>
+    {
+        builder.AllowAnyHeader()
+        .AllowAnyMethod()
+        .SetIsOriginAllowed((host) => true)
+        .AllowCredentials();
+    }));
+
+
 //builder.Services.AddHttpClient();
 
 
@@ -29,10 +39,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseRouting();
+
+app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
-//app.MapHub<VisitorHub>("/chatHub");
+
+app.MapHub<VisitorHub>("/VisitorHub");
