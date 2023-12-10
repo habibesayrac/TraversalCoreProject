@@ -168,6 +168,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERlc3RpbmF0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/LastDestinations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXExhc3REZXN0aW5hdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Areas/Member/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -358,6 +362,34 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_LastDestinations/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xhc3REZXN0aW5hdGlvbnNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutFooter/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dEZvb3RlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutHeaderContent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dEhlYWRlckNvbnRlbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutHead/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dEhlYWRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutLanguages/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dExhbmd1YWdlc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutNavbar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dE5hdmJhclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutSearch/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dFNlYXJjaFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberLayoutSidebar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dFNpZGViYXJcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/habib/OneDrive/Desktop/TraversalCoreProject/TraversalCoreProject/Views/Shared/Components/_MemberStatistic/Default.cshtml]
