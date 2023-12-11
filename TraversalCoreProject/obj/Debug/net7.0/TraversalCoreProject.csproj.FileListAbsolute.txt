@@ -320,3 +320,5 @@ C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\obj\De
 C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\es\TraversalCoreProject.resources.dll
 C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\fr\TraversalCoreProject.resources.dll
 C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\tr\TraversalCoreProject.resources.dll
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Shared._MemberLayout.en.resources
+C:\Users\habib\OneDrive\Desktop\TraversalCoreProject\TraversalCoreProject\obj\Debug\net7.0\TraversalCoreProject.Resources.Views.Shared._MemberLayout.tr.resources
