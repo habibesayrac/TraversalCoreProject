@@ -26,12 +26,11 @@
                         Alanında uzman rehberlerimiz eşliğinde Balkanlardan Orta Asya'ya, Doğu Avrupa'dan
                         Anadolu'nun dört bir yanına en uygun fiyatlarla sunduğumuz tur listemize ve detaylarına aşağıdaki tablodan erişebilirsiniz.
                     </p>
-     
                     <form asp-action="GetCitiesSearchByName" method="get" asp-area="Member">
                         <div>
                             <p>
                                 <b>Lütfen Aranacak Şehri Giriniz: </b><input type="text" name="searchString" class="form-control" value="@ViewData["CurrentFilter"]" />
-                               <br>
+                                <br>
                                 <input type="submit" value="Şehir Ara" class="btn btn-outline-dark" />
 
                             </p>
